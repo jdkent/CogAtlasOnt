@@ -1,0 +1,66 @@
+[
+  {
+    "text": "The Stroop task is purported to measure response conflict which is one component of cognitive control",
+    "spans": [
+      {
+        "text": "Stroop",
+        "is_entity": true,
+        "label": "TASK",
+        "reason": "is a task that measures cognitive constructs"
+      },
+      {
+        "text": "response conflict",
+        "is_entity": true,
+        "label": "COGNITIVE_CONSTRUCT",
+        "reason": "was mentioned as being what the task is measuring"
+      },
+      {
+        "text": "cognitive control",
+        "is_entity": true,
+        "label": "COGNITIVE_CONSTRUCT",
+        "reason": "was mentioned as being an overarching concept to response conflict"
+      }
+    ]
+  },
+  {
+    "text": "One commonly used and largely adaptive strategy is emotional reappraisal, which involves changing the way we are thinking about a situation in order to change how we feel, such as in the self-evaluation task",
+    "spans": [
+      {
+        "text": "emotional reappraisal",
+        "is_entity": true,
+        "label": "COGNITIVE_CONSTRUCT",
+        "reason": "is a mental process to adapt to the environment"
+      },
+      {
+        "text": "self-evaluation task",
+        "is_entity": true,
+        "label": "TASK",
+        "reason": "is a task that that taps into the aforementioned cognitive construct, emotional reappraisal"
+      }
+    ]
+  },
+  {
+    "text": "Repeated engagement of fronto-parietal regions during training may increase their activity and functional connectivity over time, affording greater working memory performance. The plausibility of generalizable cognitive benefits from a neurobiological perspective and implications for neurodevelopmental theory are discussed.",
+    "spans": [
+      {
+        "text": "fronto-parietal regions",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is a brain region that is mentioned as being engaged during training, not a construct"
+      },
+      {
+        "text": "working memory",
+        "is_entity": true,
+        "label": "COGNITIVE_CONSTRUCT",
+        "reason": "is a cognitive construct that is mentioned as being improved by the engagement of the aforementioned brain region"
+      },
+      {
+        "text": "generalizable cognitive benefits",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "only talking about general cognitive benefits, not a specific construct"
+      },
+    ]
+
+  }
+]
